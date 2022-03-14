@@ -1,0 +1,88 @@
+body {
+    background-color:whitesmoke;
+    color:rgb(82, 65, 65);
+}
+nav ul {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+    z-index:10;
+}
+nav li {
+    display:flex;
+    margin:0;
+    list-style:none;
+    min-width:200px;
+    flex:1;
+    text-align:center;
+    background-color:rgb(123,209,212);
+    color:rgb(2, 70, 70);
+    position:relative;
+}
+nav a, a:visited {
+    width:100%;
+    text-decoration:none;
+    padding: 8px 0px;
+    color:rgb(3,109,109);
+}
+nav a:hover, a.active {
+    color:rgb(123,209,212);
+    background-color:rgb(180, 249, 252);
+}
+h2 ~ p {
+    background-color:rgb(180, 249, 252);
+    font-size:18px;
+}
+.card-area {
+    display: flex;
+    flex-wrap:wrap;
+}
+.card {
+    width: 300px;
+    min-height: 225px;
+    border-bottom: 4px solid #d64b9c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 16px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.picture {
+    width: 300px;
+    height: 225px;
+}
+.suggestion {
+    background-color: rgba(45, 55, 72, 0.67);
+    color:white;
+    position: absolute;
+    padding: 4px 8px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.info {
+    padding: 8px;
+    color:#2d3748;
+}
+.listing {
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:4px;
+}
+.name {
+    font-size: 20px;
+    font-weight:bold;
+}
+.description {
+    margin-bottom:4px;
+}
+.ZCOOL {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.rampart {
+    font-family: 'Rampart One', cursive;
+}
+.neucha {
+    font-family: 'Neucha', cursive;
+}
